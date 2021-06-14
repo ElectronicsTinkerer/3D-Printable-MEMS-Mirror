@@ -15,3 +15,4 @@ In order to achieve a differential output, two output amplifiers are used, one t
 
 ## Known Issues
 * The heatsinks currently on the KiCad boards are inadequate for the output amplifiers if running at greater than about 0.5A output current. (Active cooling is required)
+* The 2.5V regulator's pinning is rotated 120 degrees clockwise from what it should be, so check the datasheet and schematic before soldering. This should be fixed some time in the future.
